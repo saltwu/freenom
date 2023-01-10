@@ -10,9 +10,9 @@ jobs:
     name: Run it on action
     steps:
       - name: Checkout master
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
       - name: Setting up PHP
-        uses: shivammathur/setup-php@v3
+        uses: shivammathur/setup-php@v2
         with:
           php-version: '7.4'
       - name: Setting up Freenom account
